@@ -25,7 +25,7 @@ fun main() {
     else if (countryCode.toLowerCase()=="ge") println("Alman Vatandasi")
     else if (countryCode.toLowerCase()=="gb") println("Britanya Vatandasi")
     else if (countryCode.toLowerCase()=="us") println("Amariga Vatandasi")
-    else if (countryCode.toLowerCase()=="ru") println("Rus Vatandasi")
+    if (countryCode.toLowerCase()=="ru") println("Rus Vatandasi")
 
     val phoneNumber:Long=443300022
 
